@@ -324,7 +324,7 @@ section {
   }
   /* Contoh penyesuaian untuk layar dengan lebar maksimal 768px */
   .container {
-    width: 100%; /* Misalnya, mengubah lebar container */
+    width: 90%; /* Misalnya, mengubah lebar container */
   }
   /* Sesuaikan gaya atau tata letak elemen lain sesuai kebutuhan */
 }
