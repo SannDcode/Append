@@ -322,6 +322,11 @@ section {
     display: inline-block;
     margin: 5px; /* Adjust spacing between icons */
   }
+  /* Contoh penyesuaian untuk layar dengan lebar maksimal 768px */
+  .container {
+    width: 100%; /* Misalnya, mengubah lebar container */
+  }
+  /* Sesuaikan gaya atau tata letak elemen lain sesuai kebutuhan */
 }
 
 /* Aturan CSS untuk tampilan pada tablet (ukuran layar ≤ 1024px) */
