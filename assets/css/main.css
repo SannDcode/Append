@@ -326,10 +326,13 @@ section {
   .container {
     width: 100%; /* Misalnya, mengubah lebar container */
   }
+  .jmbtrn {
+    width: 90%;
+  }
   /* Sesuaikan gaya atau tata letak elemen lain sesuai kebutuhan */
 }
 
-//media queries ukuran samsungs8+
+/*media queries ukuran samsungs8+
 @media (max-width: 360px) {
   .container {
     width: 100%;
@@ -337,7 +340,7 @@ section {
   .jmbtrn {
     width: 90%;
   }
-}
+}*/
 
 @media (max-width: 740px) {
   .container {
@@ -399,6 +402,7 @@ section {
 */
   nav li {
     transition: background-color 0.2s ease-out 0.1s;
+    border-left: 2px solid #000;
   }
 
   nav li:hover {
@@ -407,8 +411,11 @@ section {
   }
 
   nav li.coeg {
-    border-right: 2px solid #000000;
     padding-right: 18px;
+  }
+
+  nav li a {
+    border-right: none;
   }
 
   .navmenu ul {
@@ -417,13 +424,12 @@ section {
     display: flex;
     list-style: none;
     align-items: center;
+    border: 2px solid #000;
+    border-left: none;
   }
 
   .navmenu li {
     position: relative;
-    border-top: 2px solid #000000;
-    border-bottom: 2px solid #000000;
-    border-left: 2px solid #000000;
   }
 
   .navmenu a,
@@ -471,8 +477,8 @@ section {
     transition: 0.2s;
     border-radius: 4px;
     z-index: 99;
-    border-right: 2px solid #000000;
     border-bottom: 2px solid #000000;
+    border-right: 2px solid #000;
   }
 
   .navmenu .dropdown ul li {
@@ -576,7 +582,6 @@ section {
     cursor: pointer;
     transition: color 0.3s;
   }
-
   .navmenu {
     padding: 0;
     z-index: 9997;
@@ -663,7 +668,7 @@ section {
   .navmenu .dropdown > .dropdown-active,
   .navmenu .megamenu > .dropdown-active {
     display: block;
-    background-color: rgba(33, 37, 41, 0.03);
+    background-color: #8c8c8c;
   }
 
   .mobile-nav-active {
@@ -690,6 +695,7 @@ section {
 
   .mobile-nav-active .navmenu > ul {
     display: block;
+    background: #c6d5de;
   }
 }
 
@@ -1248,7 +1254,6 @@ section {
   width: 30px;
   height: 2px;
   background: var(--primary-color);
-  border-right: 5px solid var(--background-color);
 }
 
 .services .service-item .icon {
