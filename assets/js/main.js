@@ -75,6 +75,13 @@ document.addEventListener('DOMContentLoaded', () => {
     lastScrollTop = scrollTop;
   });
 
+
+  /**
+   * Mobile
+   */
+
+
+
   /**
    * Mobile nav toggle
    */
